@@ -1,0 +1,108 @@
+[1mdiff --git a/.github/README.md b/.github/README.md[m
+[1mindex 2aa03b3..32caaf9 100644[m
+[1m--- a/.github/README.md[m
+[1m+++ b/.github/README.md[m
+[36m@@ -1,101 +1 @@[m
+[31m-GitHub Activity Generator [![Gitter](https://badges.gitter.im/github-activity-generator/community.svg)](https://gitter.im/github-activity-generator/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge) [![build](https://github.com/Shpota/github-activity-generator/workflows/build/badge.svg)](https://github.com/Shpota/github-activity-generator/actions?query=workflow%3Abuild)[m
+[31m-=========================[m
+[31m-[m
+[31m-A script that helps you *instantly* generate a beautiful GitHub Contributions Graph[m
+[31m-for the last year.[m
+[31m-[m
+[31m-## ⚠ Disclaimer[m
+[31m-[m
+[31m-This script is for educational purposes and demonstrating GitHub mechanics. It should not be used to misrepresent professional contributions or coding activity.[m
+[31m-[m
+[31m-## Check my other projects[m
+[31m-[m
+[31m-I created this project more than five years ago. Since then, I have built several **much more valuable[m
+[31m-tools** which I encourage you to check:[m
+[31m-[m
+[31m-- [sol4k](https://github.com/sol4k/sol4k) - Kotlin, JVM, and Android client for Solana[m
+[31m-- [podil.js](https://github.com/podiljs/podil) - Lightweight and secure database schema migration tool[m
+[31m-- [goxygen](https://github.com/Shpota/goxygen) - Web project generator[m
+[31m-- [zeit](https://github.com/Shpota/zeit) - A Fitbit clock face for learners of the German language[m
+[31m-[m
+[31m-[m
+[31m-## What it looks like[m
+[31m-[m
+[31m-### Before :neutral_face: :no_mouth: :unamused: [m
+[31m-![Before](before.png)[m
+[31m-### After :muscle: :relieved: :heart: :sunglasses: :metal: :horse: :wink: :fire: :dancer: :santa: :fireworks: :cherries: :tada:[m
+[31m-![After](after.png)[m
+[31m-[m
+[31m-## How to use[m
+[31m-1. Create an empty GitHub repository. Do not initialize it.[m
+[31m-2. Download [the contribute.py script](https://github.com/Shpota/github-activity-generator/archive/master.zip) [m
+[31m-and execute it passing the link on the created repository[m
+[31m-```sh[m
+[31m-python contribute.py --repository=git@github.com:user/repo.git[m
+[31m-```[m
+[31m-Now you have a repository with lots of changes in your GitHub account.[m
+[31m-Note: it takes several minutes for GitHub to reindex your activity.[m
+[31m-[m
+[31m-## How it works[m
+[31m-The script initializes an empty git repository, creates a text file and starts [m
+[31m-generating changes to the file for every day within the last year (0-20 commits [m
+[31m-per day). Once the commits are generated it links the created repository with[m
+[31m-the remote repository and pushes the changes.[m
+[31m-[m
+[31m-## Customizations[m
+[31m-You can customize how often to commit and how many commits a day to make, etc.[m
+[31m-[m
+[31m-For instance, with the following command, the script will make from 1 to 12 [m
+[31m-commits a day. It will commit 60% days a year.[m
+[31m-```sh[m
+[31m-python contribute.py --max_commits=12 --frequency=60 --repository=git@github.com:user/repo.git[m
+[31m-```[m
+[31m-Use `--no_weekends` option if you don't want to commit on weekends[m
+[31m-```sh[m
+[31m-python contribute.py --no_weekends[m
+[31m-```[m
+[31m-If you do not set the `--repository` argument the script won't push the changes. [m
+[31m-This way you can import the generated repository yourself.[m
+[31m-[m
+[31m-Use `--days_before` and `--days_after` to specify how many days before the current[m
+[31m-date the script should start committing, and how many days after the current date it[m
+[31m-will keep committing.[m
+[31m-[m
+[31m-```sh[m
+[31m-python contribute.py --days_before=10 --days_after=15[m
+[31m-```[m
+[31m-[m
+[31m-Run `python contribute.py --help` to get help.[m
+[31m-[m
+[31m-## System requirements[m
+[31m-To be able to execute the script you need to have Python and Git installed.[m
+[31m-[m
+[31m-## Troubleshooting[m
+[31m-[m
+[31m-#### I performed the script but my GitHub activity is still the same.[m
+[31m-It might take several minutes for GitHub to reindex your activity. Check[m
+[31m-if the repository has new commits and wait a couple of minutes.[m
+[31m-#### The changes are still not reflected after some time.[m
+[31m-Are you using a private repository? If so, enable showing private contributions[m
+[31m-[following this guide](https://help.github.com/en/articles/publicizing-or-hiding-your-private-contributions-on-your-profile).[m
+[31m-[m
+[31m-#### Still no luck[m
+[31m-Make sure the email address you have in GitHub is the same as you have in[m
+[31m-your local settings. GitHub counts contributions only when they are made [m
+[31m-using the corresponding email.[m
+[31m-[m
+[31m-Check your local email settings with:[m
+[31m-```[m
+[31m-git config --get user.email[m
+[31m-```[m
+[31m-If it doesn't match with the one from GitHub reset it with[m
+[31m-```[m
+[31m-git config --global user.email "user@example.com"[m
+[31m-```[m
+[31m-Create a new repository and rerun the script.[m
+[31m-[m
+[31m-#### There are errors in the logs of the script.[m
+[31m-Maybe you tried to use an existing repository. If so, make sure you are using[m
+[31m-a new one which is *not initialized*.[m
+[31m-[m
+[31m-**If none of the options helped, open an issue and I will fix it as soon as possible.**[m
+[32m+[m[32m❤️LOVE FROM VANSH❤️[m
+\ No newline at end of file[m
